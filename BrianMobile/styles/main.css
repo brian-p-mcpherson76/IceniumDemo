@@ -1,4 +1,4 @@
-﻿body
+body
 {
     margin-left: 4px;
     margin-right: 4px;
@@ -14,7 +14,83 @@
     color: red;
 }
 
+#logo
+{
+    text-align:center
+}
+
 #map_canvas
 {
     text-align:center;
+}
+
+.ui-icon-pita-anchor
+{
+    background-image:url("jquery-mobile/images/anchor.png");
+    background-size: 18px 18px;
+}
+
+.ui-input-search
+{
+    width: 75% !important;
+    float: left;
+}
+
+.dog
+{
+    height:auto !important;
+    background-color:yellow !important;
+    
+}
+
+.ui-btn-hidden, .ui-btn-right
+{
+    width:22% !important;  
+    height:30px !important;
+    
+}
+
+.ui-btn-inner
+{
+ 
+}
+
+#navbarHeader
+{
+    background-color: purple;
+}
+
+.cat
+{
+    width:10% !important;
+    
+    float: left;
+    background-color: red;
+    border:solid 0px black;
+}
+
+#Quacker
+{
+    border:solid 0px black;
+}
+
+.div, .div span
+{
+    font-size:0.92em;
+}
+
+.addList
+{
+    Width:25px;
+    border: solid 1px red
+}
+
+.multiListColumnThin
+{
+    width:10%;
+}
+
+.multiListColumnThick
+{
+    width:70%;
 }

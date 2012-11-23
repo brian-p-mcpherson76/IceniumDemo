@@ -28,6 +28,8 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="jquery-mobile\images\BriansIcons" />
+    <Folder Include="Data" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -51,17 +53,47 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="Coupons.html" />
+    <Content Include="Data\Brands.json" />
+    <Content Include="Data\category.json" />
+    <Content Include="Data\data.json" />
+    <Content Include="Data\lists.json" />
+    <Content Include="Data\shoppingList.json" />
     <Content Include="index.html" />
     <Content Include="jquery-mobile\images\ajax-loader.png" />
     <Content Include="jquery-mobile\images\ajax-loader.gif" />
+    <Content Include="jquery-mobile\images\anchor.png" />
+    <Content Include="jquery-mobile\images\bomb.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\anchor.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\coupon.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\date.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\duck.jpg" />
+    <Content Include="jquery-mobile\images\BriansIcons\duck.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\home.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\pin.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\SBLogo.jpg" />
+    <Content Include="jquery-mobile\images\BriansIcons\SBLogo.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\shoplist.png" />
+    <Content Include="jquery-mobile\images\BriansIcons\zoom.png" />
     <Content Include="jquery-mobile\images\icons-18-black.png" />
     <Content Include="jquery-mobile\images\icons-18-white.png" />
     <Content Include="jquery-mobile\images\icons-36-black.png" />
     <Content Include="jquery-mobile\images\icons-36-white.png" />
     <Content Include="jquery-mobile\jquery-1.7.1.min.js" />
-    <Content Include="jquery-mobile\jquery.mobile-1.1.1.min.css" />
-    <Content Include="jquery-mobile\jquery.mobile-1.1.1.min.js" />
-    <Content Include="js\hello-world.js" />
+    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.css" />
+    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.js" />
+    <Content Include="js\couponList.js" />
+    <Content Include="js\multiList.js" />
+    <Content Include="js\shoppingList.js" />
+    <Content Include="js\shoppingListControls.js" />
+    <Content Include="js\storeLocator.js" />
+    <Content Include="js\weeklyAd.js" />
+    <Content Include="ShoppingList.html" />
+    <Content Include="ShoppingList2.html" />
+    <Content Include="storeLocator.html" />
+    <Content Include="styles\BriansTheme.css" />
+    <Content Include="styles\BriansTheme.min.css" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
@@ -71,6 +103,7 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="weeklyAd.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
